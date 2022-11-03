@@ -1,0 +1,28 @@
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m-- Info: /Users/alinaakimova/zio-quickstart-restful-webservice/src/main/scala/dev/zio/quickstart/users/PersistentUserRepo.scala:22:19 [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m22 |[0m      _ <- ctx.run {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m   |[0m           ^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m   |[0mQuill Query: INSERT INTO "UserTable" ("uuid","name","age") VALUES ($1, $2, $3)[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m23 |[0m        quote {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m24 |[0m          query[UserTable].insertValue {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m25 |[0m            lift(UserTable(id, user.name, user.age))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m26 |[0m          }[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m27 |[0m        }[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m28 |[0m      }[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m-- Info: /Users/alinaakimova/zio-quickstart-restful-webservice/src/main/scala/dev/zio/quickstart/users/PersistentUserRepo.scala:33:12 [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m33 |[0m    ctx.run {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m   |[0m    ^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m   |[0mQuill Query: SELECT p."name" AS name, p."age" AS age FROM "UserTable" p WHERE p."uuid" = $1[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m34 |[0m      quote {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m35 |[0m        query[[35mUserTable[0m][0m
+[0m[[0m[0minfo[0m] [0m[0m[34m36 |[0m          .filter([36mp[0m => p.uuid == lift(UUID.fromString(id)))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m37 |[0m          .map([36mu[0m => User(u.name, u.age))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m38 |[0m      }[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m39 |[0m    }.provide(ZLayer.succeed(ds)).map(_.headOption)[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m-- Info: /Users/alinaakimova/zio-quickstart-restful-webservice/src/main/scala/dev/zio/quickstart/users/PersistentUserRepo.scala:42:12 [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m42 |[0m    ctx.run {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m   |[0m    ^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m   |[0m Quill Query: SELECT u."name" AS name, u."age" AS age FROM "UserTable" u[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m43 |[0m      quote {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m44 |[0m        query[[35mUserTable[0m].map([36mu[0m => User(u.name, u.age))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m45 |[0m      }[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m46 |[0m    }.provide(ZLayer.succeed(ds))[0m

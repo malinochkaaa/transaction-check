@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jline-3.19.02">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_e760228c/target/85ae547d/c430ad4e/jline-3.19.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

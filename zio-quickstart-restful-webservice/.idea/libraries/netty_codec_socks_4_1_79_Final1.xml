@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-codec-socks-4.1.79.Final1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_a2ada3f2/target/bc7bf148/abf47a28/netty-codec-socks-4.1.79.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-buffer-4.1.79.Final3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_1c42b15c/target/0ac2f933/146dfddd/netty-buffer-4.1.79.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

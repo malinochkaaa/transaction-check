@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-incubator-transport-native-io_uring-0.0.14.Final-linux-x86_643">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_1c42b15c/target/4226b5de/e7674b27/netty-incubator-transport-native-io_uring-0.0.14.Final-linux-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

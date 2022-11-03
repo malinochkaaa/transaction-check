@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-transport-native-kqueue-4.1.79.Final-osx-aarch_643">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_e760228c/target/533843c8/e8dd5955/netty-transport-native-kqueue-4.1.79.Final-osx-aarch_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/alinaakimova/zio-quickstart-restful-webservice/src/main/resources/file.txt,/Users/alinaakimova/zio-quickstart-restful-webservice/target/scala-3.1.3/classes/file.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/alinaakimova/zio-quickstart-restful-webservice/src/main/resources/bigfile.txt,/Users/alinaakimova/zio-quickstart-restful-webservice/target/scala-3.1.3/classes/bigfile.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/alinaakimova/zio-quickstart-restful-webservice/src/main/resources/h2-schema.sql,/Users/alinaakimova/zio-quickstart-restful-webservice/target/scala-3.1.3/classes/h2-schema.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/alinaakimova/zio-quickstart-restful-webservice/src/main/resources/application.conf,/Users/alinaakimova/zio-quickstart-restful-webservice/target/scala-3.1.3/classes/application.conf)[0m

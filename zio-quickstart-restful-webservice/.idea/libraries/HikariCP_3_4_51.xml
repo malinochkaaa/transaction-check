@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HikariCP-3.4.51">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_a2ada3f2/target/a832bfa3/44fd861a/HikariCP-3.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

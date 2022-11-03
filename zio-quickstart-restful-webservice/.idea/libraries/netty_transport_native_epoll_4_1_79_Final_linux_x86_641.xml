@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-transport-native-epoll-4.1.79.Final-linux-x86_641">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_a2ada3f2/target/7a78da0c/c3eabde3/netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

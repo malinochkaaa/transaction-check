@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scalafmt-sysops_2.13-3.1.02">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_a2ada3f2/target/7edb9513/184b14bb/scalafmt-sysops_2.13-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

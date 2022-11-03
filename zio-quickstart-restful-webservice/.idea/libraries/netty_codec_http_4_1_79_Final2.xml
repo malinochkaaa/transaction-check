@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-codec-http-4.1.79.Final2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_1c42b15c/target/7e639690/5e80038f/netty-codec-http-4.1.79.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
