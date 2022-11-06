@@ -17,9 +17,7 @@ object TransactionApp:
 
   def apply(): Http[Any, Throwable, Request, Response] =
     Http.collectZIO[Request] {
-      // POST /users -d '{"name": "John", "age": 35}'
       case req@(Method.POST -> !! / "transaction-check") =>
-        val blacklist = Source.fromResource("bigfile.txt").getLines()
         for {
           u <- req.bodyAsString.map(_.fromJson[Transaction])
           r <- u match
@@ -28,11 +26,13 @@ object TransactionApp:
                 Response.text(e).setStatus(Status.BadRequest)
               )
             case Right(u) =>
-              for (line <- blacklist) {
-                if (line.equals(u.src) || line.equals(u.dst))
-                  Response.text("Cancel")
-                else
-                  Response.text("Succeed")
-              }
+              search(u)
         } yield r
     }
+
+  def search(u: Transaction): ZIO[Any, Throwable, Response] = {
+    val blacklist = Source.fromResource("blacklist.txt").getLines()
+    for {line <- blacklist} if (line.equals(u.src) || line.equals(u.dst)) return ZIO.succeed(Response.text("Cancel"))
+    ZIO.succeed(Response.text("Succeed"))
+  }
+
