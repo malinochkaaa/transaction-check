@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="scalafmt-core_2.13-3.1.01">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_a2ada3f2/target/29522c5f/0d2a3541/scalafmt-core_2.13-3.1.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="zhttp-logging_3-2.0.0-RC101">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_1c42b15c/target/50ccc90c/0ac06dba/zhttp-logging_3-2.0.0-RC10.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

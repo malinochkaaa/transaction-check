@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="scala-logging_3-3.9.41">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_e760228c/target/bfca529d/4b3ad19f/scala-logging_3-3.9.4.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

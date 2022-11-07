@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="netty-transport-4.1.79.Final3">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_5fa72153/target/2e0b5d23/12ee9d2f/netty-transport-4.1.79.Final.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

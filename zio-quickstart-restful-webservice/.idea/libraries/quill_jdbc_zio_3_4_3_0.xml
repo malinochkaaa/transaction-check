@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="quill-jdbc-zio_3-4.3.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/target/bg-jobs/sbt_a2ada3f2/target/a912bba5/a647498b/quill-jdbc-zio_3-4.3.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

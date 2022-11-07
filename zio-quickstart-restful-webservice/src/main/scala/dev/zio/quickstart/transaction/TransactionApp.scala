@@ -17,6 +17,7 @@ object TransactionApp:
 
   def apply(): Http[Any, Throwable, Request, Response] =
     Http.collectZIO[Request] {
+      // POST /users -d '{"name": "John", "age": 35}'
       case req@(Method.POST -> !! / "transaction-check") =>
         for {
           u <- req.bodyAsString.map(_.fromJson[Transaction])
@@ -35,4 +36,3 @@ object TransactionApp:
     for {line <- blacklist} if (line.equals(u.src) || line.equals(u.dst)) return ZIO.succeed(Response.text("Cancel"))
     ZIO.succeed(Response.text("Succeed"))
   }
-
