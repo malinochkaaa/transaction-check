@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: sysops
+Implementation-Version: 3.1.0
+Specification-Vendor: org.scalameta
+Specification-Title: sysops
+Implementation-Vendor-Id: org.scalameta
+Specification-Version: 3.1.0
+Implementation-URL: https://github.com/scalameta/scalafmt
+Implementation-Vendor: org.scalameta
+

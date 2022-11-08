@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Implementation-Title: Netty/Incubator/Transport/Classes/io_uring
+Bundle-Description: Netty is an asynchronous event-driven network appl
+ ication framework for    rapid development of maintainable high perfo
+ rmance protocol servers and    clients.
+Automatic-Module-Name: io.netty.incubator.transport.classes.io_uring
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
+Bundle-SymbolicName: io.netty.incubator.netty-incubator-transport-clas
+ ses-io_uring
+Implementation-Version: 0.0.14.Final
+Bnd-LastModified: 1652181090377
+Bundle-ManifestVersion: 2
+Bundle-DocURL: https://netty.io/
+Bundle-Vendor: The Netty Project
+Import-Package: sun.nio.ch;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103
+Implementation-Vendor: The Netty Project
+Export-Package: io.netty.incubator.channel.uring;version="0.0.14"
+Bundle-Name: Netty/Incubator/Transport/Classes/io_uring
+Bundle-Version: 0.0.14.Final
+Build-Jdk-Spec: 1.8
+Created-By: Apache Maven Bundle Plugin
+

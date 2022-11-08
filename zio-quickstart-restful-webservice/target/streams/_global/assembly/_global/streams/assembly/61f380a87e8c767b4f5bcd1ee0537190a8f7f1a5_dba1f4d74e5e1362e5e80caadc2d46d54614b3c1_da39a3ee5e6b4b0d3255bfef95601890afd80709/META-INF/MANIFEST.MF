@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: boopickle
+Implementation-Version: 1.4.0
+Specification-Vendor: io.suzaku
+Specification-Title: boopickle
+Implementation-Vendor-Id: io.suzaku
+Specification-Version: 1.4.0
+Implementation-URL: https://github.com/suzaku-io/boopickle
+Implementation-Vendor: io.suzaku
+

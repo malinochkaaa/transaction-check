@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: typesafe
+Implementation-Version: 0.9.15
+Specification-Vendor: com.geirsson
+Specification-Title: typesafe
+Implementation-Vendor-Id: com.geirsson
+Specification-Version: 0.9.15
+Implementation-URL: https://github.com/olafurpg/metaconfig
+Implementation-Vendor: com.geirsson
+

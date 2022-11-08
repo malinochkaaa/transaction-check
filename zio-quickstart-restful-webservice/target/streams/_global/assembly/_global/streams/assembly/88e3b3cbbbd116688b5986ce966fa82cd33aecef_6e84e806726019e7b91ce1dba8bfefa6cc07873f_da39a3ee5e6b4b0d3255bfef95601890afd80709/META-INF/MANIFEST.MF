@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: trees
+Implementation-Version: 4.4.29
+Specification-Vendor: org.scalameta
+Specification-Title: trees
+Implementation-Vendor-Id: org.scalameta
+Specification-Version: 4.4.29
+Implementation-Vendor: org.scalameta
+

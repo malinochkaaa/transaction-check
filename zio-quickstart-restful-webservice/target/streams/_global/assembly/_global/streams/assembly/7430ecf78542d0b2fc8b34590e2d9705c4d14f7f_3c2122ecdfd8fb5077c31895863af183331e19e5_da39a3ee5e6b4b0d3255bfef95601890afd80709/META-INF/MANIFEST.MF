@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: zio-streams
+Automatic-Module-Name: dev.zio.zio.streams
+Implementation-Version: 2.0.0
+Specification-Vendor: dev.zio
+Specification-Title: zio-streams
+Implementation-Vendor-Id: dev.zio
+Specification-Version: 2.0.0
+Implementation-URL: https://zio.dev
+Implementation-Vendor: dev.zio
+

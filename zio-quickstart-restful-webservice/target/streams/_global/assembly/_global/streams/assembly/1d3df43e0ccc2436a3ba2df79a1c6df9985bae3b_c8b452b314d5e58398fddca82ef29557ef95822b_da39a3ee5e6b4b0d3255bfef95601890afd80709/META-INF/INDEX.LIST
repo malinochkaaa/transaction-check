@@ -1,0 +1,13 @@
+JarIndex-Version: 1.0
+
+netty-incubator-transport-classes-io_uring-0.0.14.Final.jar
+META-INF
+META-INF/maven
+META-INF/maven/io.netty.incubator
+META-INF/maven/io.netty.incubator/netty-incubator-transport-classes-io_uring
+io
+io/netty
+io/netty/incubator
+io/netty/incubator/channel
+io/netty/incubator/channel/uring
+

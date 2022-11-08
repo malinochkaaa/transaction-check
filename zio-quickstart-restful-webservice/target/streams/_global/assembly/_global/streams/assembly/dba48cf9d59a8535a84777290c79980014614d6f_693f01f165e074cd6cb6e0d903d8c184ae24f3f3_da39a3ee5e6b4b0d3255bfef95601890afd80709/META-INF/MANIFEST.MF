@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: zio-json
+Implementation-Version: 0.3.0-RC11
+Specification-Vendor: dev.zio
+Specification-Title: zio-json
+Implementation-Vendor-Id: dev.zio
+Specification-Version: 0.3.0-RC11
+Implementation-URL: https://zio.github.io/zio-json/
+Implementation-Vendor: dev.zio
+

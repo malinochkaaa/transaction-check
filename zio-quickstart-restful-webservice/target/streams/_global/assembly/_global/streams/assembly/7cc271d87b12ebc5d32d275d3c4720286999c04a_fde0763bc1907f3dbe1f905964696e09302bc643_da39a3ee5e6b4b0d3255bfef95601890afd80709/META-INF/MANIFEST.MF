@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: paiges-core
+Implementation-Version: 0.4.2
+Specification-Vendor: org.typelevel
+Specification-Title: paiges-core
+Implementation-Vendor-Id: org.typelevel
+Specification-Version: 0.4.2
+Implementation-URL: https://github.com/typelevel/paiges
+Implementation-Vendor: org.typelevel
+

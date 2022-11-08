@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: zhttp-logging
+Specification-Version: 2.0.0-RC10
+Specification-Vendor: d11
+Implementation-Title: zhttp-logging
+Implementation-Version: 2.0.0-RC10
+Implementation-Vendor: d11
+Implementation-Vendor-Id: io.d11
+Implementation-URL: https://github.com/dream11/zio-http
+

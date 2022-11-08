@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: quill-sql
+Implementation-Version: 4.3.0
+Specification-Vendor: io.getquill
+Specification-Title: quill-sql
+Implementation-Vendor-Id: io.getquill
+Specification-Version: 4.3.0
+Implementation-URL: http://github.com/getquill/protoquill
+Implementation-Vendor: io.getquill
+

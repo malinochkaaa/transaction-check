@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: zio-logging-slf4j
+Implementation-Version: 2.0.0
+Specification-Vendor: dev.zio
+Specification-Title: zio-logging-slf4j
+Implementation-Vendor-Id: dev.zio
+Specification-Version: 2.0.0
+Implementation-URL: https://zio.github.io/zio-logging/
+Implementation-Vendor: dev.zio
+

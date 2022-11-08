@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: sql-formatter
+Implementation-Version: 1.2.1
+Specification-Vendor: com.github.takayahilton
+Specification-Title: sql-formatter
+Implementation-Vendor-Id: com.github.takayahilton
+Specification-Version: 1.2.1
+Implementation-URL: https://github.com/takayahilton/sql-formatter
+Implementation-Vendor: com.github.takayahilton
+
